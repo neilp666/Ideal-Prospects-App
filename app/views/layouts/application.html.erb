@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Idealprospects</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
   <%= csrf_meta_tags %>
 </head>
 
-<body>
-	this will be the navigation
-	<%= link_to "Welcome", "/" %>
-	<%= link_to "About", "/" %>
-	<%= link_to "Contact", "/" %>
-
-<%= yield %>
-
-</body>
+	<body>
+			<div class="container">
+				<div class="page-header">
+					<ul class="nav nav-pills pull-right">
+							<li><%= link_to "Welcome", "/" %></li>
+							<li><%= link_to "About", "/about" %></li>
+							<li><%= link_to "Contact", "/contact" %></li>
+					</ul>
+					<h1><%= link_to 'IdealProspects','/' %><small>// Get prospects in under half the time</small></h1>
+				</div>
+	  			
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3">
+							<%= yield %>
+						</div>
+					</div>
+	</body>
 </html>
