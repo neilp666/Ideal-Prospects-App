@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Company:</strong>
+  <%= @post.company %>
+</p>
+
+<p>
+  <strong>Contact:</strong>
+  <%= @post.contact %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @post.email %>
+</p>
+
+<p>
+  <strong>Telephone:</strong>
+  <%= @post.telephone %>
+</p>
+
+<p>
+  <strong>Website:</strong>
+  <%= @post.website %>
+</p>
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back', posts_path %>

@@ -1,6 +1,8 @@
 Idealprospects::Application.routes.draw do
   
   
+  resources :posts
+
   get "about" => 'pages#about'
   get "contact" => 'pages#contact'
 
