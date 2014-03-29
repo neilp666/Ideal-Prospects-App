@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Idealprospects</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+
+<body>
+	this will be the navigation
+	<%= link_to "Welcome", "/" %>
+	<%= link_to "About", "/" %>
+	<%= link_to "Contact", "/" %>
+
+<%= yield %>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+== README
+
+Ideal prospects App
+
+is a web application for sales professionals to find their top prospects
+in half the time it usually takes
+
+* Ruby version - 2.0
+
+* Rails version - 4.0.4
+
+* Bootstrap - CDN
+
+* Database - SQL 
+
+
