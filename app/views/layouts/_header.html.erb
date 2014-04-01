@@ -1,8 +1,7 @@
 <div class="container">
 			<div class="page-header">
 		
-				<ul class="nav nav-pills pull-right">
-
+				<ul class="nav navbar-nav navbar-right">
 					<li><%= link_to "Welcome", root_url %></li>
 					<li><%= link_to "About", about_url %></li>
 					<li><%= link_to "Contact", contact_url %></li>
@@ -14,9 +13,6 @@
 					<li><%= link_to "Manage Contacts", posts_url %></li>
 					<li><%= link_to "Edit Profile", edit_user_registration_path %></li>
 					<li><%= link_to "Sign Out", destroy_user_session_path, method: :delete %></li>
-				<% else %>
-					<li><%= link_to "Sign In", new_user_session_path %></li>
-					<li><%= link_to "Sign Up", new_user_registration_path %></li>
 				<% end %>
 		
 				</ul>
