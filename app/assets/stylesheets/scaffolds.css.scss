@@ -1,9 +1,18 @@
-body {
-  background-color: #fff;
-  color: #333;
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
+
+.jumbotron {
+  background-image:url("applemac.jpg");
+  text-align:center;
+}
+
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+
+.footer {
+  padding-top: 75px;
+
 }
 
 
