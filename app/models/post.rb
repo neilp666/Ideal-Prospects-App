@@ -5,6 +5,6 @@ class Post < ActiveRecord::Base
 
 	belongs_to :posts
 
-	:storage => :dropbox
-    :dropbox_credentials => Rails.root.join("config/dropbox.yml")
+	:storage => :dropbox,
+    :dropbox_credentials => Rails.root.join("config/dropbox.yml"),
 end
